@@ -1,7 +1,8 @@
 {
-  "name": "authapps",
+  "name": "mern-auth-apps",
   "version": "1.0.0",
-  "description": "",
+  "type": "module",
+  "description": "MERN Authentication System",
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
@@ -11,17 +12,18 @@
   },
   "author": "Shahidul Islam",
   "license": "ISC",
-  "devDependencies": {
-    "concurrently": "^8.2.0",
-    "nodemon": "^3.0.1"
-  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^9.0.1",
     "mongoose": "^7.4.3",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.1"
   }
 }
